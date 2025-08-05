@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  font-family: 'Dancing Script', cursive !important;
+  background: url('https://www.wolvden.com/img/layout/backgrounds/lunar2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #e0e8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.den-box {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: rgba(15, 15, 30, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid rgba(152, 199, 249, 0.4);
+  box-shadow: 0 0 12px rgba(121, 183, 240, 0.4);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  color: #98c7f9;
+  text-shadow: 0 0 6px #79b7f0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.den-section {
+  margin-top: 30px;
+}
+
+.den-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.nocturne::before {
+  content: "🌑 ";
+}
+
+.muties::before {
+  content: "⭐️ ";
+}
+
+.keepers::before {
+  content: "🌙 ";
+}
+
+.hunters::before {
+  content: "🪶 ";
+}
+
+.pupsitters::before {
+  content: "🧸 ";
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted #445;
+  margin: 10px 0;
+}
+
+.divider {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.footer-quote {
+  text-align: center;
+  color: #aaa;
+  font-style: italic;
+  font-size: 14px;
+  text-shadow: 0 0 3px #999;
+  margin-top: 12px;
+}
